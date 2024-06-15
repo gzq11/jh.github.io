@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  
+  <style>
+    body {
+      background-color: #f0f0f0;
+    }
+    .feedback{
+        width: 980px;
+        margin: 0 auto;
+        position: relative;
+        top: 200px;
+    }
+    form {
+      background-color: white;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    .footer2{
+    width: 980px;
+    height: 100px;
+    flood-color:white;
+    font-family: "微软雅黑";  
+    font-size: 14px;
+    background-color: #525252;
+    line-height: 100px;
+    position: absolute;
+    top: 600px;
+    margin: 0 auto;
+    left: 50%;
+    margin-left: -490px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- 导航条 -->
+  <div class="nav" >
+    <ul class="navlist">
+      <li class="btli"><a href="index.html">首页</a> </li>
+      <li class="btli"><a href="#">角色</a>
+    <ul class="droplist">
+    <li><a href="wilson.html">威尔逊</a></li>
+      <li><a href="willow.html">薇洛</a></li>
+      <li><a href="wendy.html">温蒂</a></li>
+      <li><a href="wolfgang.html">沃尔夫冈</a></li>
+  </ul>
+  </li>
+  <li class="btli"><a href="feedback.html">帮助反馈</a></li>
+   
+  </div> 
+ 
+<div class="feedback">
+<h2>反馈表单</h2>
+
+  <form action="">
+    <label for="name">姓名：</label><br>
+    <input type="text" id="name"><br>
+    <label for="email">邮箱：</label><br>
+    <input type="email" id="email"><br>
+    <label for="feedback">反馈内容：</label><br>
+    <textarea id="feedback" rows="4" cols="50"></textarea><br>
+    <input type="submit" value="提交">
+  </form>
+
+</div>
+  
+<div class="footer2" align="center"   >
+  <font color="white">游戏攻略 科雷 威尔逊 薇洛 温蒂 沃尔夫冈</font><br>
+ 
+</div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

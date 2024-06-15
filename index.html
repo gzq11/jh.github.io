@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  
+ 
+</head>
+
+<body>
+  <!-- 导航条 -->
+  <div class="nav" >
+    <ul class="navlist">
+      <li class="btli"><a href="index.html">首页</a> </li>
+      <li class="btli"><a href="#">角色</a>
+    <ul class="droplist">
+    <li><a href="wilson.html">威尔逊</a></li>
+      <li><a href="willow.html">薇洛</a></li>
+      <li><a href="wendy.html">温蒂</a></li>
+      <li><a href="wolfgang.html">沃尔夫冈</a></li>
+  </ul>
+  </li>
+  <li class="btli"><a href="feedback.html">帮助反馈</a></li>
+  </div> 
+<!-- 轮播图 -->
+  <div id="banner">
+    <ul id="imglist">
+    <li><a href=""><img  src="img/pic1.jpg" alt=""></a></li>   
+    <li><a href=""><img src="img/pic2.jpg" alt=""></a></li>   
+    <li><a href=""><img src="img/pic3.jpg" alt=""></a></li>
+    <li><a href=""><img src="img/pic4.jpg" alt=""></a></li>
+    <!-- 多加一张图片衔接首尾 -->
+    <li><a href=""><img src="img/pic1.jpg" alt=""></a></li>
+    </ul>
+    <ul id="icolist">
+    <li>1</li>
+     width="1000" height="400">
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    </ul>
+    <div class="prev">《</div>
+    <!-- 左右点击的按钮 -->
+    <div class="next">》</div>
+    </div>
+      <!--内容  -->
+
+    <div class="content" align="center">
+      <h2><font color="#7c251c" class="aa">饥荒简介</font></h2>
+      <hr size="2" width="980px" color="#dcdcdc">
+      <div align="left">
+           <p class="aaa">
+          &nbsp;&nbsp;&nbsp;&nbsp;<font color="#7c251c" class="aa">饥荒</font> 
+          是一款结合冒险、生存、角色扮演、养成等元素于一身的游戏，描述玩家被恶魔流放到一个荒芜的饥荒世界中，唯一能依靠的是自己的双手与求生能力。玩家必须妥善运用饥荒世界中的资源，尽可能的武装自己并且强大起来，好在冒险模式中击败恶魔回到现实世界。
+
+
+          </p>
+      </div>
+      <hr size="2" width="980px" color="#dcdcdc">
+      <h2><font color="#7c251c" class="aa">角色图片</font></h2>
+       
+      <img src="img/Wilson_DST.png" alt="">  
+      <img src="img/Willow_DST.png" alt="">   
+      <img src="img/Wendy_DST.png" alt="">    
+      <img src="img/Wolfgang_DST.png" alt="">  
+    
+
+      <h2><font color="#7c251c" class="aa">全家福</font></h2>
+    <!-- 放大图片 -->      
+     <!-- 触发弹窗 - 图片 -->
+      <p style="text-align: center; position: relative; top: 40px;"><img id="myImg" src="img/family.jpg" alt="《饥荒》是一款动作冒险类求生游戏，玩家将在异世界中面临生存的挑战。以下是该游戏中的部分角色介绍：
+        1. **威尔逊**：是一个较为平衡的角色，可以自己长胡子。
+        2. **薇洛**：是一个纵火女孩，也是游戏中第一个可使用的女性角色。她拥有一个无耐久度的打火机，靠近火时会有精神加成，并且免疫火焰伤害。
+        3. **温蒂**：是游戏中第二个解锁的角色，她的能力比较诡异，已故的孪生姐妹阿比盖尔可以用花召唤。
+        4. **沃尔夫冈**：是游戏中第三个解锁的角色，他的生命值与饱食度是一般角色的双倍，并且额外拥有力量。但他很怕黑，所以在黑暗中与怪物周围精神下降得更快。
+        "
+     width="980" height="400">
+</p>
+ <!-- 弹窗 -->
+ <div id="myModal" class="modal">
+     <!-- 关闭按钮 -->
+     <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+     <!-- 弹窗内容 -->
+     <img class="modal-content" id="img01" src="">
+     <!-- 文本描述 -->
+     <div id="caption"></div>
+ </div>
+</div>
+
+<div class="footer" align="center" >
+  <font color="white">游戏攻略 科雷 威尔逊 薇洛 温蒂 沃尔夫冈</font><br>
+  <font color="white">威尔逊 薇洛 温蒂 沃尔夫冈</font>
+</div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
